@@ -1,0 +1,62 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;  /* background hitam */
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+nav button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #444;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.scrolling-gallery {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.scrolling-gallery img {
+    height: 150px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+}
