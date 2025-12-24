@@ -60,3 +60,22 @@ footer {
     padding: 10px;
     background-color: #1f1f1f;
 }
+
+.bottom-button {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00ffcc;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+.bottom-button:hover {
+  background: #00c9a7;
+}
